@@ -1770,7 +1770,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@noble/hashes@npm:0.4.1":
+"@noble/hashes@npm:^0.4.1":
   version: 0.4.1
   resolution: "@noble/hashes@npm:0.4.1"
   checksum: 3c706beec3bcd9e43f2b88c0791f022b645b5c0a9dd76889dfc189e51da2f0c692ef846b5889e074338353e335269c14f4c0ea34329b4d7dd45ae82c482b4605
@@ -2091,7 +2091,7 @@ __metadata:
   resolution: "@polkadot/util-crypto@workspace:packages/util-crypto"
   dependencies:
     "@babel/runtime": ^7.16.3
-    "@noble/hashes": 0.4.1
+    "@noble/hashes": ^0.4.1
     "@polkadot/networks": 8.0.2
     "@polkadot/util": 8.0.2
     "@polkadot/wasm-crypto": ^4.4.1
@@ -2189,7 +2189,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.16.3
     "@polkadot/x-global": 8.0.2
-    "@types/react-native": ^0.66.5
+    "@types/react-native": ^0.66.6
   languageName: unknown
   linkType: soft
 
@@ -2578,12 +2578,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:^0.66.5":
-  version: 0.66.5
-  resolution: "@types/react-native@npm:0.66.5"
+"@types/react-native@npm:^0.66.6":
+  version: 0.66.6
+  resolution: "@types/react-native@npm:0.66.6"
   dependencies:
     "@types/react": "*"
-  checksum: 7107dd8626259d2968f3ed564aae706fad3d535ae00bca2549d16d21be7926df8e982efd8c8a4b9b79a9d1c1beef3e1758fc51a877ee04426a41aca0f6b5a534
+  checksum: fba05b80bf2cf973f4448e9561df567f55988729a0a3b5ad633f07c9ab06f850658bf2ccf2a52cc947827322ecf120241a4f7a4e55485b9c6cdbbbad154d8635
   languageName: node
   linkType: hard
 

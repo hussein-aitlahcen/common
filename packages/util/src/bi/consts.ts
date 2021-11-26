@@ -9,7 +9,7 @@ type NewBigInt = (value: string | number | bigint | boolean) => bigint;
  */
 export const _n: NewBigInt = typeof BigInt !== 'undefined'
   ? BigInt
-  : () => Number.NaN as unknown as bigint;
+  : () => new Error('BigInt is not available') as unknown as bigint;
 
 /**
  * @name _0n
